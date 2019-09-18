@@ -1,6 +1,6 @@
 function changeText() {
  document.getElementById("textChange").innerHTML = "Thanks for liking my Webpage";
- document.body.style.backroundcolor = "red";
+ document.body.style.backroundcolor = "red"
 }
 
 

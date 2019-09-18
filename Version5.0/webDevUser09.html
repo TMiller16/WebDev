@@ -6,18 +6,71 @@
 <head>
 
      
-    <script src="JS/WebDevUser09_script.js"></script>
+ <!--   <script src="JS/WebDevUser09_script.js"></script>-->
     
 <title> Web Development User #9</title>
 
+    <link rel="stylesheet" href="Day.css">
+    
+<style>
+   ul li{ color: red;}
+    .emphesis{font-weight: bold;}
+    .names{color:blue;}
+    </style>
+    <script src="JS/jQuery-1.7.1.js"></script>
+  <!--  <script>
+    $(document).ready(function() {
+        $('li:first-Child').addclass('emphesis');
+        
+    });
+    </script>
+-->
 </head>
 
 <body>
-
+<h3>coolest names</h3>
+    <ol>
+        <li>Tyler Miller</li>
+        <li>Everyone elses name</li>
+        
+        </ol>
+<ul> 
+    <li>Hello</li>
+    <li>Hello2 </li>
+    <li>Hello3 </li>
+    </ul>  
 <center> My name is Tyler Miller</center>
 
 <center><p id="textChange"> Please like</p></center>
-<button type="button" onclick="changeText()">Click if you like</button>
+<!--<button type="button" onclick="changeText()">Click if you like</button>
+    
+
+    <script>
+        $('ul li').addclass('emphesis');
+        $('ol li').addclass('names');
+    </script>
+  -->  
+<button data-file = 'Day'>DayTime</button>
+    <button data-file = 'Night'>NightTime</button>
+    
+<script>
+(function(){
+    var link = $('link');
+    $('button').click(function(){
+    var $this = $(this),
+        stylesheet = $this.data('file');
+        link.attr('href' , stylesheet = '.css');
+        
+        $this
+            .sibling('button')
+                    .removeattr('disabled')
+        .end()
+        .attr('disabled' , 'disabled');
+        
+        
+    });
+})();    
+</script>
     
 </body>
 

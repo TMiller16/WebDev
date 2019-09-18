@@ -1,0 +1,85 @@
+<html>
+
+
+<body>
+    
+<center><h1><a href="/" id="logoLink">Miller Music Production</a></h1></center>
+    
+ <li><a href="WebDevUser09_AboutMe.html">about me</a></li>
+
+                                <li><a href="WebDevUser09_Game.html">Game</a></li>
+    <li><a href="webDevUser09.html">Home</a></li>
+    
+<dl>
+	<dt>What are your hours?</dt>
+	<dd>I am available from 8 am to 6 pm</dd>
+	<dt>Phone number</dt>
+	<dd>612-747-7474</dd>
+	<dt>email address</dt>
+	<dd>millersmusic@gmail.com</dd>
+	<dt>address</dt>
+	<dd>200 parklion drive</dd>
+	<dt>how are you doing?</dt>
+	<dd>good thanks for asking</dd>
+</dl>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+<script>
+
+(function() {
+	
+	$('dd').filter(':nth-child(n+4)').addClass('hide');
+
+	$('dl').on('mouseenter', 'dt', function() {
+		$(this)
+			.next()
+				.slideDown(200)
+				.siblings('dd')
+					.slideUp(200);
+	});
+})();
+
+
+</script>
+
+
+
+
+    
+    
+</body>
+    <style>
+    body {
+        width:500px;
+    
+        margin: auto;
+        text-align center;
+    }
+        dl {
+            
+        }
+        dd{
+            margin: 0;
+            
+            padding: 1em 0;
+            
+        }
+        dt {
+            
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1.5em;
+            line-height: 2em;
+            background: #e3e3e3;
+            border-bottom: 1px solid #c5c5c5;
+            border-top: 1px solid white;
+            
+        
+        }    
+    
+    
+    </style>
+
+</html>
