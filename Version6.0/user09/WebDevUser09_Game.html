@@ -1,5 +1,5 @@
 <html>
-<title>Millers Music Production</title>
+<head>
 
         
 
@@ -12,10 +12,10 @@
 
         <link rel="stylesheet" href="style.css" type="text/css" />
 
-        
-
-</head>
-
+<meta charset=utf-8>    
+    
+        </head>
+<title>Millers Music Production</title>
 <body>
 <link href="CSS/webDevUser09.css" rel="stylesheet" type="text/css"> 
 
@@ -157,5 +157,30 @@ Change background color in:
         </div>
 
 </body>
+
+<div class="container">    
+    
+    <h2>When you score less than .5 press "point" to keep score"</h2>
+    <h3>Point</h3>
+   
+        
+    </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>   
+    <script>
+    
+    (function() {
+        
+        $('div.container').delegate('h3', 'click',function() {
+            console.log('clicked');
+            $(this).clone().appendTo('.container');
+            
+        });
+    })();
+    
+    
+    
+    
+    </script>
+
 
 </html>
