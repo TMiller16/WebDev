@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>Appending content</title>  
+    <style>
+        article {
+            width: 600px;
+            margin: auto;
+        }    
+        blockquote.co {
+            float: right;
+            background: #e3e3e3;
+            font-size: 2em;
+            width: 35%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+<article>
+    <h1>Blog Post #1</h1>
+    
+    <p>
+    Hello and welcome to my first blog post. This post is very bloggy thank you for your time.
+    </p>
+    
+    <p>
+        <span class=co>this is my second post</span> Yah yeet I dont know bout you but im feeling twent two Yah yeet I dont know bout you but im feeling twent twoYah yeet I dont know bout you but im feeling twent twoYah yeet I dont know bout you but im feeling twent twoYah yeet I dont know bout you but im feeling twent two
+    </p>
+        <p>
+    Hello and welcome to my first blog post. This post is very bloggy thank you for your time.
+    </p>    <p>
+    Hello and welcome to my first blog post. This post is very bloggy thank you for your time.
+    </p>
+    <img src="images/User9/download.jpeg" width="150"
+                    hights="150">
+    <p>
+        this is my second post Yah yeet I dont know bout you but im feeling twent two Yah yeet I dont know bout you but im feeling twent twoYah <span class=co>Hello from the other side</span>Yah yeet I dont know bout you but im feeling twent twoYah yeet I dont know bout you but im feeling twent two
+    </p>
+    <p>
+    Hello and welcome to my first blog post. This post is very bloggy thank you for your time.
+    </p>
+        <p>
+        this is my second post Yah yeet I dont know bout you but im feeling twent two Yah yeet I dont know bout you but im feeling twent twoYah <span class=co>Yeet</span>Yah yeet I dont know bout you but im feeling twent twoYah yeet I dont know bout you but im feeling twent two
+    </p>
+    </article>
+        
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    
+    <script>
+    
+    (function() {
+
+  
+var co=$('article').find('span.co').each(function() {
+        var $this = $(this);
+        
+        $('<blockquote></blockquote>', {
+            class: 'co',
+            text: $this.text()
+            
+        }).prependTo( $this.closest('p') );
+        
+    });
+        
+        
+})();
+    
+    
+    
+    
+    </script>
+    </body>
+</html>

@@ -1,0 +1,224 @@
+body {
+  padding-top: 50px;
+  text-align: center;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.starter-template img {
+	height:165px;
+	display: inline;
+}
+
+body {
+	background: #1a2426;
+	font-size: 16px;
+}
+
+p, span, div, li, a, input, button {
+	font-family: ARVO, serif;
+}
+
+h1, h2 {
+	color:white;
+	font-family: LOBSTER, cursive;
+}
+
+.container {
+	max-width: 300px;
+	margin: auto;
+    background-color: #ff0000;
+     display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+header h1 {
+	color: #f7f7f7;
+	font-size: 6em;
+	text-align: center;
+	-webkit-transform: rotate(-5deg); 
+	-moz-transform: rotate(-5deg);
+	margin: 20px auto;	
+}
+
+#fetch {
+	margin: auto;
+	text-align: center;
+	max-width: 500px;
+}
+
+#term {
+	padding: 10px;
+	font-size: 1.6em;
+	margin: 10px auto;
+	width: 80%;
+}
+
+#search {
+	background: #e3e3e3;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-o-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	box-shadow: inset 0 0 1px 1px #f6f6f6;
+	color: #333;
+	line-height: 1;
+	font-size: 1.6em;
+	padding: 8px 0 9px;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	display: block;
+	margin: 10px auto;
+	width: 80%;
+}
+
+#search:hover {
+	background: #d9d9d9;
+	-webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-moz-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-ms-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-o-box-shadow: inset 0 0 1px 1px #eaeaea;
+	box-shadow: inset 0 0 1px 1px #eaeaea;
+	color: #222;
+	cursor: pointer; 
+}
+
+#search:active {
+	background: #d0d0d0;
+	-webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-ms-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-o-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	box-shadow: inset 0 0 1px 1px #e3e3e3;
+	color: #000;
+}
+
+#poster {
+	text-align: center;
+}
+
+#thePoster {
+	display: inline-block;
+	max-width: 90%;
+	margin: 20px auto;
+	-webkit-box-shadow: 1px 1px 20px #000000;
+	-moz-box-shadow: 1px 1px 20px #000000;
+	box-shadow: 1px 1px 20px #000000;
+}
+
+.loading {
+	color: #f7f7f7;
+	margin: 20px auto;
+	font-size: 3em;
+}
+
+footer {
+	text-align: center;
+	margin: 20px auto;
+}
+
+footer p, footer a {
+	color: #f7f7f7;
+}
+
+.twitter-follow-button {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #000000;
+}
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: #1a2426;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #ffffff;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8em;
+}

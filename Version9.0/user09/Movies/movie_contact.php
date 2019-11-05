@@ -1,16 +1,30 @@
 <html>
+<head>
 
+       
+<style>
+    body {
+        background: #1a2426;
+    }
+    </style>
+    <title>Contact</title>
+    </head>
 
 <body>
     
     
-<center><h1><a href="/" id="logoLink">Miller Music Production</a></h1></center>
-    
- <li><a href="WebDevUser09_AboutMe.html">about me</a></li>
+<body>
+    <center><font color = "white"><h1>Contact Page</h1></font></center> 
+<font color="white">
+    <h3>Menu</h3>
+    </font>
+ <button><li><a href="http://127.0.0.1:8080/movies/index.php">Home</a></li></button>
+  <button><li><a href="http://127.0.0.1:8080/movies/movie_search.php">Movie Search</a></li></button>
+     <button><li><a href="http://127.0.0.1:8080/movies/moviegame/movie_game.php">Game</a></li></button>
+    <button><li><a href="http://127.0.0.1:8080/movies/movie_weather.php">Weather</a></li></button>
+    <button><li><a href="http://127.0.0.1:8080/movies/movie_contact.php">contact</a></li></button>
 
-                                <li><a href="WebDevUser09_Game.html">Game</a></li>
-    <li><a href="webDevUser09.html">Home</a></li>
-    
+    <body>
 <dl>
 	
 	<dt>Phone number</dt>
